@@ -13,7 +13,9 @@
 
 ## Some Common JVM Arguments
 
-`-XX:ActiveProcessorCount=8` helps if your SoC cores are not detected properly in Minecraft
-(if Minecraft is reporting CPU as 5x null or 9x null)
+`-XX:ActiveProcessorCount=8` - Helps if your SoC cores are not detected properly in Minecraft
+(if Minecraft is reporting CPU as 5x null or 9x null).
 
-`-Dsodium.checks.issue2561=false` Fixes some of the common crashes that could occur when using LTW renderer along with sodium
+`-Dsodium.checks.issue2561=false` - Fixes some of the common crashes that could occur when using LTW renderer along with sodium.
+
+`-Duser.language=en -Duser.country=US` - Fixes the language curroption when using mods.
